@@ -30,8 +30,8 @@ label.textAlignment = NSTextAlignmentCenter;
 @end
 
 %hook HomeController
-#define cyHomeKitURLiPad @"/Applications/Cydia.app/CydiaXI.html"
-#define cyHomeKitURLiPhone @"/Applications/Cydia.app/CydiaXI.html"
+#define cyHomeKitURLiPad @"/Applications/Cydia.app/CydiaPlus.html"
+#define cyHomeKitURLiPhone @"/Applications/Cydia.app/CydiaPlus.html"
 
 -(id)init {
     self.view.backgroundColor = [UIColor whiteColor];
@@ -71,4 +71,4 @@ return %orig;
 }
 %end
 
-//This tweak is made by @Even_Dev
+//This tweak is made by @DevelopApple
