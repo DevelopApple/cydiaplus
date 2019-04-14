@@ -2,9 +2,9 @@ THEOS_DEVICE_IP = xxx.xxx.xxx.xxx
 ARCHS = arm64
 include /home/EvenDev/theos/makefiles/common.mk
 
-TWEAK_NAME = CydiaXI
-CydiaXI_FILES = Tweak.xm
-CydiaXI_FRAMEWORKS = UIKit
+TWEAK_NAME = CydiaPlus
+CydiaPlus_FILES = Tweak.xm
+CydiaPlus_FRAMEWORKS = UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
